@@ -20,14 +20,6 @@ namespace CursoCSharp.Fundamentos {
             Console.WriteLine($"A área total é de: {area}");
 
 
-            string nome = "Cleiton";
-            int idade = 23;
-            double altura = 1.90;
-            bool temGato = true;
-            var sobrenome = "Perez";
-
-
-
         }
     }
 }

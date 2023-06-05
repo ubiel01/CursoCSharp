@@ -25,7 +25,13 @@ namespace CursoCSharp {
                 {"Estrutura ForEach - Estruturas de Controle",EstuturaForEach.Executar},
 
                 //Classes e Métodos
-                {"Membros - Classes e Métodos",Membros.Executar}
+                {"Membros - Classes e Métodos",Membros.Executar},
+                {"Métodos Com Retorno - Classes e Métodos",MetodosComRetorno.Executar},
+                {"Exercicios Métodos com Retorno - Classes e Métodos",ExerciciosMetodosComRetorno.Executar},
+                {"Métodos Estaticos - Classes e Métodos",MetodosEstaticos.Executar},
+                {"Exercicios Get e Set 1",exercicioGeteSet1.Executar},
+                {"Exercicios Get e Set 2",exercicioGeteSet2.Executar},
+                {"Exercicios Get e Set 3",exercicioGeteSet3.Executar}
             }); ;
 
             central.SelecionarEExecutar();
