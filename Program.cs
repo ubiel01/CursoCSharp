@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -31,7 +32,9 @@ namespace CursoCSharp {
                 {"Métodos Estaticos - Classes e Métodos",MetodosEstaticos.Executar},
                 {"Exercicios Get e Set 1",exercicioGeteSet1.Executar},
                 {"Exercicios Get e Set 2",exercicioGeteSet2.Executar},
-                {"Exercicios Get e Set 3",exercicioGeteSet3.Executar}
+                {"Exercicios Get e Set 3",exercicioGeteSet3.Executar},
+                {"Coleções Queue",ColecoesQueue.Executar},
+                {"Coleções Stack",ColecoesStack.Executar}
             }); ;
 
             central.SelecionarEExecutar();
