@@ -39,8 +39,6 @@ namespace CursoCSharp.Colecoes
             //contando os elementos
             Console.WriteLine(pilha.Count);
 
-
-
         }
     }
 }
