@@ -36,7 +36,9 @@ namespace CursoCSharp {
                 {"Exercicios Get e Set 3",exercicioGeteSet3.Executar},
                 {"Coleções Queue",ColecoesQueue.Executar},
                 {"Coleções Stack",ColecoesStack.Executar},
-                {"Exercicio Polimorfismo",ExercicioPolimorfismo.Executar}
+                //POO
+                {"Exercicio Polimorfismo",ExercicioPolimorfismo.Executar},
+                {"Abstract - POO",Abstract.Executar}
             }); ;
 
             central.SelecionarEExecutar();
