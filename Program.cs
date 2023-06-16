@@ -5,6 +5,7 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.POO;
+using CursoCSharp.excecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -38,7 +39,9 @@ namespace CursoCSharp {
                 {"Coleções Stack",ColecoesStack.Executar},
                 //POO
                 {"Exercicio Polimorfismo",ExercicioPolimorfismo.Executar},
-                {"Abstract - POO",Abstract.Executar}
+                {"Abstract - POO",Abstract.Executar},
+                //Exceções
+                {"Primeira exceção",PrimeiraExcecao.Executar}
             }); ;
 
             central.SelecionarEExecutar();
